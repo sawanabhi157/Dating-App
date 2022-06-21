@@ -1,0 +1,43 @@
+.conatiner {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  box-shadow: -1px 31px 106px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 31px 106px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 31px 106px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  .inner__container {
+    width: 85%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .left {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 30%;
+      .logo {
+        color: white;
+        font-size: 1.3rem;
+        font-weight: 600;
+      }
+    }
+    .right {
+      display: flex;
+      flex-direction: row;
+      width: 12%;
+      justify-content: space-between;
+      .nav__btn {
+        margin-top: 20px;
+        padding: 4px 6px 4px 6px;
+        border-radius: 5px;
+        color: rgb(255, 3, 3);
+        font-weight: 600;
+        font-size: 0.9rem;
+        background-color: white;
+      }
+    }
+  }
+}
